@@ -1,7 +1,9 @@
 {
-    "rewrites": [
+    "routes": [
         {
-            "source": "/(.*)", "destination": "/"
+            "source": "/", "destination": "/"
+        },{
+            "source": "/", "destination": "/"
         }
     ]
 }
