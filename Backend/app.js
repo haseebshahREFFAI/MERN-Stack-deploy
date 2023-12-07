@@ -25,8 +25,8 @@ app.use("/api/job", jobRouter);
 app.use("/api/Profile", profileRouter);
 app.use("/api/user", userRouter);
 
-app.get('/',(req,res) => {
-  res.send("Hello")
+app.get('/',(_req,res) => {
+  return res.json("Hello")
 })
 // New route for user signup
 app.post("/api/signup", async (req, res) => {
